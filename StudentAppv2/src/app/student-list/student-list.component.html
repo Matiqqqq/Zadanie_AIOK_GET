@@ -1,0 +1,22 @@
+<div class="student-list">
+    <h2>Lista Studentów</h2>
+    <table class="student-table" *ngIf="students && students.length > 0">
+      <thead>
+        <tr class="table-header">
+          <th>ID</th>
+          <th>Imię i nazwisko</th>
+          <th>Wiek</th>
+          <th>Kierunek</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let student of students">
+          <td>{{ student.studentId }}</td>
+          <td>{{ student.name }}</td>
+          <td>{{ student.age }}</td>
+          <td>{{ student.major }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
