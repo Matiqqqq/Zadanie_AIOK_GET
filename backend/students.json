@@ -1,0 +1,20 @@
+[
+    {
+        "studentId": "1",
+        "name": "Jan Kowalski",
+        "age": 21,
+        "major": "Informatyka"
+    },
+    {
+        "studentId": "2",
+        "name": "Anna Nowak",
+        "age": 22,
+        "major": "Matematyka Stosowana"
+    },
+    {
+        "studentId": "3",
+        "name": "Adam Adamczyk",
+        "age": 21,
+        "major": "Informatyka i Ekonometria"
+    }
+]
